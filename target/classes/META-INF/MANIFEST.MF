@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1635873256505
+Build-Jdk: 1.8.0_282
+Built-By: shchavan
+Bundle-Description: Sample Camel Route for Rest Configuration
+Bundle-ManifestVersion: 2
+Bundle-Name: Fuse :: Karaf :: Camel :: Rest Configuration
+Bundle-SymbolicName: org.redhat.fusesource.example.karaf-camel-rest-conf
+ iguration
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.redhat.fusesource;uses:="org.apache.camel.builder,or
+ g.apache.camel.model.rest,org.apache.camel.model";version="1.0.0.SNAPSH
+ OT"
+Import-Package: org.apache.camel.builder;version="[2.23,3)",org.apache.c
+ amel.model;version="[2.23,3)",org.apache.camel.model.rest;version="[2.2
+ 3,3)",org.osgi.service.blueprint;version="[1.0.0,2.0.0)"
+Tool: Bnd-1.50.0
